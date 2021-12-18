@@ -6,6 +6,8 @@ description: |
   Snap for peaks, the OpenPGP Keyserver
 grade: stable
 confinement: strict
+architectures:
+    - build-on: amd64
 
 apps:
   peaks:
